@@ -11,4 +11,9 @@ public class GreetingController {
     public String index() {
         return "<h1>Hello World!<h1>";
     }
+    @GetMapping("/sha1-hashing/{password}")
+    public String hashPassword(@PathVariable String password) {
+        String hashedPassword = SHA1HashGenerator.generateSHA1Hash(password);
+        return hashedPassword;
+    }
 }
