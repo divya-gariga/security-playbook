@@ -1,0 +1,9 @@
+some commonly used passwords and its hashes:
+
+plaintext - hash
+-------------------
+password - 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8
+password@123 - 8e7152d0eb52c340579f2d70a28eaf1a2c5ba1c5
+qwerty - b1b3773a05c0ed0176787a4f1574ff0075f7521e
+123456789 - f7c3bc1d808e04732adf679965ccc34ca7ae3441
+abc@123 - ddac418a1be76098d01107464026f65d2a3192bf
