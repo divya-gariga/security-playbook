@@ -15,7 +15,4 @@ import java.util.stream.Collectors;
 
 @Repository
 public interface UserRepository extends JpaRepository<User,Integer> {
-
-    @Query("SELECT u FROM User u WHERE u.name = :name AND u.password = :password")
-    List<User> findByNameAndPassword(@Param("name") String name, @Param("password") String password);
 }
